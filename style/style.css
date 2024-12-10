@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 20px;
+    position: relative;
+    top: 15px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.nav-icon img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease, transform 0.2s ease;
+    position: relative;
+    top: 15%;
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+}
+
+.nav-icon img:hover {
+    filter: grayscale(0%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.sidebar {
+    width: 220px;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.sidebar h2{
+    color:  black;
+    text-align: center;
+}
+
+.sidebar p{
+    color:  black;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.skills img.icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ;
+}
+
+.skills img.icon:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+
+main {
+    max-width: 700px;
+    width: 80%;
+    padding: 40px;
+
+    border-radius: 20px; 
+
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: start;
+    font-size: 40px;
+}
+
+p {
+    text-align: start;
+    font-size: 20px;
+    color:gray;
+}
+
+
+h2 {
+    margin-top: 10px;
+}
+.languages {
+    max-width: 700px;
+    width: 80%;
+    padding: 40px;
+
+    border-radius: 20px; 
+
+    margin-bottom: 20px;
+}
+
+.languages h2 {
+    text-align: start;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.language-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language-icons .icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.language-icons .icon:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: black;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#bottom {
+    text-align: center;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
