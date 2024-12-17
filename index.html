@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <title>Brendon So</title>
     <script src="JavaScript.js"></script>
+
+
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header class="navbar">
+    <header class="navbar"style="visibility: hidden;">
         <a href="index.html" class="nav-icon"><img src="images/icons/home.png" alt="Home"></a>
         <a href="https://github.com/brendonso" class="nav-icon"><img src="images/icons/folder.png" alt="Projects"></a>
     </header>
 
-
-
 <div class="container">
-    <aside class="sidebar">
+    <aside class="sidebar" style="visibility: hidden;">
         <img src="images/icons/PFP.jpeg" alt="pfp" class="profile-img">
         <div class="skills">
             <h2>Contact</h2>
@@ -28,18 +28,15 @@
 
     <div class="body">
         <main>
-
-            <h1 id="typing"></h1>
-            <p id = "body"></p>
-        
-
+            <h1 id="intro">Hello I'm Brendon</h1>
+            <p id = "intro_body">Computer Science student at the University of Massachusetts Lowell</p>
         </main>
         
-
         <section class="languages">
-            <h2>Programming Languages</h2>
-            <div class="language-icons">
-
+            <h2 id = "title_langs" >Programming Languages</h2>
+            <p id = "langs">These are the languages I'm currently have used.</p>
+            <div class="language-icons"style="visibility: hidden;">
+                
                 <img src="images/code/c.png" alt="c" class="icon">
                 <img src="images/code/cpp.png" alt="c" class="icon">
                 <img src="images/code/java.png" alt="Java" class="icon">
@@ -51,13 +48,13 @@
         </section>
 
         <section class="languages">
-            <h2>Courses</h2>
-            <p>Relevant coursework: Mobile App Programming I, Intro To Java Programming, GUI Programming I, Organization of
-                Programming Languages, Assembly Language Programming, Computing I - IV</p>
+            <h2 id = "title_course">Courses</h2>
+            <p id = "courses">Relevant coursework: Mobile App Programming I, Intro To Java Programming, GUI Programming I,
+            Organization of Programming Languages, Assembly Language Programming, Computing I - IV</p>
         </section>
 
         <section class="languages">
-            <div class="container">
+            <div class="email"style="visibility: hidden;">
                 <!--https://formspree.io/forms/meoqwzek/integration -->
                 <form action="https://formspree.io/f/meoqwzek" method="POST">
                     <label for="fname">Name</label>
@@ -88,6 +85,7 @@
 
     </div>
     <script src="js/script.js"></script>
+    <script src="js/text.js"></script>
 
  
 </body>
